@@ -1,0 +1,99 @@
+# Compiled binary files
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.sln.ide
+project.lock.json
+project.fragment.lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio for Mac
+.vscode/
+.vscode-mac/
+*.csproj.user
+
+# Paket
+paket-files/
+.paket/
+
+# DotNet CLI
+.dotnet/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Test results
+TestResults/
+Coverage/
+Tests/coverage.json
+Tests/lcov.info
+tests/Coverage
+**lcov.info
+
+# Build results
+out/
+
+# Publish output
+publish/
+
+# Backup & report files from dotnet-watch
+*.swp
+*.ide
+*.orig
+*.rej
+*.sln.*
+.sln.docstates
+
+# Logs and database files
+*.log
+*.sql
+*.sqlite
+
+# IDE config files
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Resharper files
+_ReSharper/
+*.[Rr]e[Ss]harper
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Azure Functions local settings
+local.settings.json
+
+# Node and npm
+node_modules/
+
+# Yarn
+.yarn/
+.pnp.*
+
+# JavaScript/TypeScript compilation
+dist/
+temp/
