@@ -54,27 +54,11 @@ Este é um sistema de linha de comando (CLI) desenvolvido em C# com foco na gest
 
 ## 🛠 Estrutura do Projeto
 
-- `GS.Domain`: Entidades e enums do domínio (FalhaEnergia, PlanoAcao, StatusPlanoAcao).
 - `GS.Infra.DAO`: Camada de acesso a dados (em memória).
-- `GS.Application.Service`: Regras de negócio.
-- `Program.cs`: Entrada principal e interface CLI.
+- `GS.Application`: Regras de negócio, interfaces e modelos.
+- `GS.Console`: Entrada principal e interface CLI.
 
 ## ✅ Requisitos
 
 - .NET 8 ou superior
 - Terminal (cmd, bash, PowerShell, etc.)
-
-## 🛠 Estrutura do Projeto
-
-- `GS.Application`  
-  Camada de aplicação responsável pela lógica de negócio.  
-  - **Services**: Serviços que implementam regras e operações do sistema, orquestrando chamadas entre domínio e dados.  
-  - **Models**: Modelos ou DTOs usados para transferência de dados entre camadas.  
-  - **Interfaces DAO**: Contratos que definem a abstração para acesso a dados, permitindo flexibilidade na implementação.
-
-- `GS.Infra`  
-  Implementação concreta dos DAOs (Data Access Objects), responsável pelo armazenamento dos dados. Atualmente utiliza uma implementação em memória para persistência temporária durante a execução.
-
-- `Console`  
-  Aplicação de interface de linha de comando (CLI), contendo a classe `Program.cs` que é o ponto de entrada do sistema. Gerencia a interação com o usuário, exibição de menus e captura de dados via terminal.
-
